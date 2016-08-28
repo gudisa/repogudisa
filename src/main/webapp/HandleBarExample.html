@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<scripts id="entry-template" type="text/x-handlebars-template">
+var context = {title:"My new post",body:"This is my first post"};
+var html = template(context);
+ <div class="entry">
+ <h1 {{title}}>
+ </h1>
+ <div class="body">
+ {{body}}
+ </div>
+ </div>
+</scripts>
+</body>
+</html>

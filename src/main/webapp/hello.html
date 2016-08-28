@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="handlebars-v4.0.5.js"> </script>
+</head>
+<body>
+<div id="hello">
+</div>
+<script type="text/javascript">
+
+var myInfo = "<p>My name is {{name}} and i live at  {{street}} in {{city}}, {{state}} </p>";
+var template = Handlebars.compile(myInfo);
+var data = template({name:"Raja",street:"6820 preston road",city:"plano",state:"TX"});
+document.getElementById("hello").innerHTML+=data;
+</script>
+</body>
+</html>
