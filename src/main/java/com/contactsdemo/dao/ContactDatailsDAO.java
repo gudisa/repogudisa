@@ -33,6 +33,20 @@ public class ContactDatailsDAO {
 		 
 		 
 		// contacts.get(user.getId()).equals(user.getId());
+		// contacts.get(user.getId()).equals(user.getId());
+		 
+		 
+		 return null; 
+		 
+	 }
+
+	  public User update1User(User user)
+	 {
+         
+		 
+		 
+		// contacts.get(user.getId()).equals(user.getId());
+		// contacts.get(user.getId()).equals(user.getId());
 		 
 		 
 		 return null; 
